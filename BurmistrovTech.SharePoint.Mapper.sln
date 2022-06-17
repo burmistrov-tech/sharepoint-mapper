@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE169038-7DEC-4BA1-9F32-CCDB95B534C4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{269D5559-F817-486B-BA88-32C5C3EF339F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EF88AE7C-2C13-4ECB-AED5-52C7075138BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurmistrovTech.SharePoint.Mapper", "src\BurmistrovTech.SharePoint.Mapper.csproj", "{C126A830-8509-4601-AC4E-96B89F115D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurmistrovTech.SharePoint.Mapper.Tests", "tests\BurmistrovTech.SharePoint.Mapper.Tests.csproj", "{77B5BE80-5356-443F-BF10-A9BD2A6ACFCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A752E084-6340-4BE6-A24B-6BBE19667696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A752E084-6340-4BE6-A24B-6BBE19667696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A752E084-6340-4BE6-A24B-6BBE19667696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A752E084-6340-4BE6-A24B-6BBE19667696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C126A830-8509-4601-AC4E-96B89F115D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C126A830-8509-4601-AC4E-96B89F115D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C126A830-8509-4601-AC4E-96B89F115D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C126A830-8509-4601-AC4E-96B89F115D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B5BE80-5356-443F-BF10-A9BD2A6ACFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B5BE80-5356-443F-BF10-A9BD2A6ACFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B5BE80-5356-443F-BF10-A9BD2A6ACFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B5BE80-5356-443F-BF10-A9BD2A6ACFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A752E084-6340-4BE6-A24B-6BBE19667696} = {EF88AE7C-2C13-4ECB-AED5-52C7075138BF}
+		{C126A830-8509-4601-AC4E-96B89F115D7B} = {269D5559-F817-486B-BA88-32C5C3EF339F}
+		{77B5BE80-5356-443F-BF10-A9BD2A6ACFCF} = {EF88AE7C-2C13-4ECB-AED5-52C7075138BF}
+	EndGlobalSection
+EndGlobal
